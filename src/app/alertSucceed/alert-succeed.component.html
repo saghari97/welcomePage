@@ -1,0 +1,12 @@
+<div class="backdrop" (click)="onClose()"></div>
+<div class="alert-box-succeed">
+    <div class="alert-box-actions">
+        <i nz-icon nzType="close" nzTheme="outline" (click)="onClose()" class="text-red-900"></i>
+    </div>
+    <nz-alert
+    nzType="success"
+    nzMessage={{name}}
+    nzDescription={{roles}}
+    nzShowIcon
+  ></nz-alert>
+</div>
